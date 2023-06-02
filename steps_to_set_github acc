@@ -51,33 +51,7 @@ origin  git@github.com:NyoYoAB/fastapi.git (push)
 setup
 error: src refspec 1-initial-app-setup does not match any
 error: failed to push some refs to 'github.com:NyoYoAB/fastapi.git'
-(/home/younes/Documents/TRAINING/FastAPI/faraday_ac/learn_fastapi/.conda) younes@worker:~/Documents/TRAINING/FastAPI/faraday_ac/learn_fastapi$ git push -u origin 1-initial-app-setup
-error: src refspec 1-initial-app-setup does not match any
-error: failed to push some refs to 'github.com:NyoYoAB/fastapi.git'
-(/home/younes/Documents/TRAINING/FastAPI/faraday_ac/learn_fastapi/.conda) younes@worker:~/Documents/TRAINING/FastAPI/faraday_ac/learn_fastapi$ git push origin 1-initial-app-set
-up
-error: src refspec 1-initial-app-setup does not match any
-error: failed to push some refs to 'github.com:NyoYoAB/fastapi.git'
-(/home/younes/Documents/TRAINING/FastAPI/faraday_ac/learn_fastapi/.conda) younes@worker:~/Documents/TRAINING/FastAPI/faraday_ac/learn_fastapi$ git push -u origin 1-initial-app-setup
-error: src refspec 1-initial-app-setup does not match any
-error: failed to push some refs to 'github.com:NyoYoAB/fastapi.git'
-(/home/younes/Documents/TRAINING/FastAPI/faraday_ac/learn_fastapi/.conda) younes@worker:~/Documents/TRAINING/FastAPI/faraday_ac/learn_fastapi$ git push -u origin 1-initial-app-setup 
-error: src refspec 1-initial-app-setup does not match any
-error: failed to push some refs to 'github.com:NyoYoAB/fastapi.git'
-(/home/younes/Documents/TRAINING/FastAPI/faraday_ac/learn_fastapi/.conda) younes@worker:~/Documents/TRAINING/FastAPI/faraday_ac/learn_fastapi$ git push -u origin 1-initial-app-setup  
-error: src refspec 1-initial-app-setup does not match any
-error: failed to push some refs to 'github.com:NyoYoAB/fastapi.git'
-(/home/younes/Documents/TRAINING/FastAPI/faraday_ac/learn_fastapi/.conda) younes@worker:~/Documents/TRAINING/FastAPI/faraday_ac/learn_fastapi$ git push -u origin 1-initial-app-setup
-error: src refspec 1-initial-app-setup does not match any
-error: failed to push some refs to 'github.com:NyoYoAB/fastapi.git'
-(/home/younes/Documents/TRAINING/FastAPI/faraday_ac/learn_fastapi/.conda) younes@worker:~/Documents/TRAINING/FastAPI/faraday_ac/learn_fastapi$ git branch
-(/home/younes/Documents/TRAINING/FastAPI/faraday_ac/learn_fastapi/.conda) younes@worker:~/Documents/TRAINING/FastAPI/faraday_ac/learn_fastapi$ git checkout 1-initial-app-setup
-error: pathspec '1-initial-app-setup' did not match any file(s) known to git
-(/home/younes/Documents/TRAINING/FastAPI/faraday_ac/learn_fastapi/.conda) younes@worker:~/Documents/TRAINING/FastAPI/faraday_ac/learn_fastapi$ git checkout -b 1-initial-app-setup
-Switched to a new branch '1-initial-app-setup'
-(/home/younes/Documents/TRAINING/FastAPI/faraday_ac/learn_fastapi/.conda) younes@worker:~/Documents/TRAINING/FastAPI/faraday_ac/learn_fastapi$ git push -u origin 1-initial-app-setup
-error: src refspec 1-initial-app-setup does not match any
-error: failed to push some refs to 'github.com:NyoYoAB/fastapi.git'
+
 (/home/younes/Documents/TRAINING/FastAPI/faraday_ac/learn_fastapi/.conda) younes@worker:~/Documents/TRAINING/FastAPI/faraday_ac/learn_fastapi$ git add .
 (/home/younes/Documents/TRAINING/FastAPI/faraday_ac/learn_fastapi/.conda) younes@worker:~/Documents/TRAINING/FastAPI/faraday_ac/learn_fastapi$ git commit -m "first commit with initial API setup"
 [1-initial-app-setup (root-commit) c0bdd5c] first commit with initial API setup
