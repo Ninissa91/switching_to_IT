@@ -115,20 +115,7 @@ Enter passphrase (empty for no passphrase):
 Enter same passphrase again: 
 Your identification has been saved in /home/younes/.ssh/id_ed25519
 Your public key has been saved in /home/younes/.ssh/id_ed25519.pub
-The key fingerprint is:
-SHA256:sd0x0ALtAl3ky0Cav7CwUdStoAeeUJDpnuYG8+14apM younesabaroudi@gmail.com
-The key's randomart image is:
-+--[ED25519 256]--+
-|  .=. .oo*+.     |
-|  + ..o+o.+..    |
-| . o ++ooo..o    |
-|  . +...o*.o o   |
-| . .o.. S.+ .    |
-|o +  + o .       |
-| * o. . .        |
-|  E.o            |
-| oo=.            |
-+----[SHA256]-----+
+**** deleted ****
 (/home/younes/Documents/TRAINING/FastAPI/faraday_ac/learn_fastapi/.conda) younes@worker:~/Documents/TRAINING/FastAPI/faraday_ac/learn_fastapi$ eval "$(ssh-agent -s)"
 Agent pid 191425
 (/home/younes/Documents/TRAINING/FastAPI/faraday_ac/learn_fastapi/.conda) younes@worker:~/Documents/TRAINING/FastAPI/faraday_ac/learn_fastapi$ ssh-add ~/.ssh/id_ed25519
