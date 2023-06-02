@@ -1,0 +1,7 @@
+https://fastapi.tiangolo.com/lo/tutorial/
+pip install fastapi uvicorn
+pip install psycopg2-binary
+pip install sqlalchemy
+https://pypi.org/project/psycopg2-binary/
+https://fastapi.tiangolo.com/lo/tutorial/sql-databases/
+
