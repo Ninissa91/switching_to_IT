@@ -1,0 +1,160 @@
+(base) younes@worker:~/Documents/TRAINING/FastAPI/faraday_ac/learn_fastapi$ conda activate /home/younes/Documents/TRAINING/FastAPI/faraday_ac/learn_fastapi/.conda
+(/home/younes/Documents/TRAINING/FastAPI/faraday_ac/learn_fastapi/.conda) younes@worker:~/Documents/TRAINING/FastAPI/faraday_ac/learn_fastapi$ 
+(/home/younes/Documents/TRAINING/FastAPI/faraday_ac/learn_fastapi/.conda) younes@worker:~/Documents/TRAINING/FastAPI/faraday_ac/learn_fastapi$ git init
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint: 
+hint:   git config --global init.defaultBranch <name>
+hint: 
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint: 
+hint:   git branch -m <name>
+Initialized empty Git repository in /home/younes/Documents/TRAINING/FastAPI/faraday_ac/learn_fastapi/.git/
+(/home/younes/Documents/TRAINING/FastAPI/faraday_ac/learn_fastapi/.conda) younes@worker:~/Documents/TRAINING/FastAPI/faraday_ac/learn_fastapi$ git branch -m main
+(/home/younes/Documents/TRAINING/FastAPI/faraday_ac/learn_fastapi/.conda) younes@worker:~/Documents/TRAINING/FastAPI/faraday_ac/learn_fastapi$ git checkout -b 1-initial-app-setup
+Switched to a new branch '1-initial-app-setup'
+(/home/younes/Documents/TRAINING/FastAPI/faraday_ac/learn_fastapi/.conda) younes@worker:~/Documents/TRAINING/FastAPI/faraday_ac/learn_fastapi$ git status
+On branch 1-initial-app-setup
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        __pycache__/
+        main.py
+
+nothing added to commit but untracked files present (use "git add" to track)
+(/home/younes/Documents/TRAINING/FastAPI/faraday_ac/learn_fastapi/.conda) younes@worker:~/Documents/TRAINING/FastAPI/faraday_ac/learn_fastapi$ git add .
+(/home/younes/Documents/TRAINING/FastAPI/faraday_ac/learn_fastapi/.conda) younes@worker:~/Documents/TRAINING/FastAPI/faraday_ac/learn_fastapi$ git commit -m "first commit with initial API setup"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'younes@worker.(none)')
+(/home/younes/Documents/TRAINING/FastAPI/faraday_ac/learn_fastapi/.conda) younes@worker:~/Documents/TRAINING/FastAPI/faraday_ac/learn_fastapi$ git config --global user.email "younesabaroudi@gmail.com"
+(/home/younes/Documents/TRAINING/FastAPI/faraday_ac/learn_fastapi/.conda) younes@worker:~/Documents/TRAINING/FastAPI/faraday_ac/learn_fastapi$ git config --global user.name "NyoYoAB"
+(/home/younes/Documents/TRAINING/FastAPI/faraday_ac/learn_fastapi/.conda) younes@worker:~/Documents/TRAINING/FastAPI/faraday_ac/learn_fastapi$ git remote add origin git@github.com:NyoYoAB/fastapi.git
+(/home/younes/Documents/TRAINING/FastAPI/faraday_ac/learn_fastapi/.conda) younes@worker:~/Documents/TRAINING/FastAPI/faraday_ac/learn_fastapi$ git remote -v
+origin  git@github.com:NyoYoAB/fastapi.git (fetch)
+origin  git@github.com:NyoYoAB/fastapi.git (push)
+(/home/younes/Documents/TRAINING/FastAPI/faraday_ac/learn_fastapi/.conda) younes@worker:~/Documents/TRAINING/FastAPI/faraday_ac/learn_fastapi$ git push -u origin 1-initial-app-
+setup
+error: src refspec 1-initial-app-setup does not match any
+error: failed to push some refs to 'github.com:NyoYoAB/fastapi.git'
+(/home/younes/Documents/TRAINING/FastAPI/faraday_ac/learn_fastapi/.conda) younes@worker:~/Documents/TRAINING/FastAPI/faraday_ac/learn_fastapi$ git push -u origin 1-initial-app-setup
+error: src refspec 1-initial-app-setup does not match any
+error: failed to push some refs to 'github.com:NyoYoAB/fastapi.git'
+(/home/younes/Documents/TRAINING/FastAPI/faraday_ac/learn_fastapi/.conda) younes@worker:~/Documents/TRAINING/FastAPI/faraday_ac/learn_fastapi$ git push origin 1-initial-app-set
+up
+error: src refspec 1-initial-app-setup does not match any
+error: failed to push some refs to 'github.com:NyoYoAB/fastapi.git'
+(/home/younes/Documents/TRAINING/FastAPI/faraday_ac/learn_fastapi/.conda) younes@worker:~/Documents/TRAINING/FastAPI/faraday_ac/learn_fastapi$ git push -u origin 1-initial-app-setup
+error: src refspec 1-initial-app-setup does not match any
+error: failed to push some refs to 'github.com:NyoYoAB/fastapi.git'
+(/home/younes/Documents/TRAINING/FastAPI/faraday_ac/learn_fastapi/.conda) younes@worker:~/Documents/TRAINING/FastAPI/faraday_ac/learn_fastapi$ git push -u origin 1-initial-app-setup 
+error: src refspec 1-initial-app-setup does not match any
+error: failed to push some refs to 'github.com:NyoYoAB/fastapi.git'
+(/home/younes/Documents/TRAINING/FastAPI/faraday_ac/learn_fastapi/.conda) younes@worker:~/Documents/TRAINING/FastAPI/faraday_ac/learn_fastapi$ git push -u origin 1-initial-app-setup  
+error: src refspec 1-initial-app-setup does not match any
+error: failed to push some refs to 'github.com:NyoYoAB/fastapi.git'
+(/home/younes/Documents/TRAINING/FastAPI/faraday_ac/learn_fastapi/.conda) younes@worker:~/Documents/TRAINING/FastAPI/faraday_ac/learn_fastapi$ git push -u origin 1-initial-app-setup
+error: src refspec 1-initial-app-setup does not match any
+error: failed to push some refs to 'github.com:NyoYoAB/fastapi.git'
+(/home/younes/Documents/TRAINING/FastAPI/faraday_ac/learn_fastapi/.conda) younes@worker:~/Documents/TRAINING/FastAPI/faraday_ac/learn_fastapi$ git branch
+(/home/younes/Documents/TRAINING/FastAPI/faraday_ac/learn_fastapi/.conda) younes@worker:~/Documents/TRAINING/FastAPI/faraday_ac/learn_fastapi$ git checkout 1-initial-app-setup
+error: pathspec '1-initial-app-setup' did not match any file(s) known to git
+(/home/younes/Documents/TRAINING/FastAPI/faraday_ac/learn_fastapi/.conda) younes@worker:~/Documents/TRAINING/FastAPI/faraday_ac/learn_fastapi$ git checkout -b 1-initial-app-setup
+Switched to a new branch '1-initial-app-setup'
+(/home/younes/Documents/TRAINING/FastAPI/faraday_ac/learn_fastapi/.conda) younes@worker:~/Documents/TRAINING/FastAPI/faraday_ac/learn_fastapi$ git push -u origin 1-initial-app-setup
+error: src refspec 1-initial-app-setup does not match any
+error: failed to push some refs to 'github.com:NyoYoAB/fastapi.git'
+(/home/younes/Documents/TRAINING/FastAPI/faraday_ac/learn_fastapi/.conda) younes@worker:~/Documents/TRAINING/FastAPI/faraday_ac/learn_fastapi$ git add .
+(/home/younes/Documents/TRAINING/FastAPI/faraday_ac/learn_fastapi/.conda) younes@worker:~/Documents/TRAINING/FastAPI/faraday_ac/learn_fastapi$ git commit -m "first commit with initial API setup"
+[1-initial-app-setup (root-commit) c0bdd5c] first commit with initial API setup
+ 2 files changed, 348 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 main.py
+(/home/younes/Documents/TRAINING/FastAPI/faraday_ac/learn_fastapi/.conda) younes@worker:~/Documents/TRAINING/FastAPI/faraday_ac/learn_fastapi$ git push -u origin 1-initial-app-setup
+The authenticity of host 'github.com (140.82.121.3)' can't be established.
+ECDSA key fingerprint is SHA256:p2QAMXNIC1TJYWeIOttrVc98/R1BUFWu3/LiyKgUfQM.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'github.com,140.82.121.3' (ECDSA) to the list of known hosts.
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+(/home/younes/Documents/TRAINING/FastAPI/faraday_ac/learn_fastapi/.conda) younes@worker:~/Documents/TRAINING/FastAPI/faraday_ac/learn_fastapi$ git remote -v
+origin  git@github.com:NyoYoAB/fastapi.git (fetch)
+origin  git@github.com:NyoYoAB/fastapi.git (push)
+(/home/younes/Documents/TRAINING/FastAPI/faraday_ac/learn_fastapi/.conda) younes@worker:~/Documents/TRAINING/FastAPI/faraday_ac/learn_fastapi$ git remote add origin git@github.
+com:NyoYoAB/fastapi.git
+error: remote origin already exists.
+(/home/younes/Documents/TRAINING/FastAPI/faraday_ac/learn_fastapi/.conda) younes@worker:~/Documents/TRAINING/FastAPI/faraday_ac/learn_fastapi$ git push -u origin 1-initial-app-setup
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+(/home/younes/Documents/TRAINING/FastAPI/faraday_ac/learn_fastapi/.conda) younes@worker:~/Documents/TRAINING/FastAPI/faraday_ac/learn_fastapi$ ssh-add 1
+1: No such file or directory
+(/home/younes/Documents/TRAINING/FastAPI/faraday_ac/learn_fastapi/.conda) younes@worker:~/Documents/TRAINING/FastAPI/faraday_ac/learn_fastapi$ ssh-keygen -t ed25519 -C "younesabaroudi@gmail.com"
+Generating public/private ed25519 key pair.
+Enter file in which to save the key (/home/younes/.ssh/id_ed25519): 
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /home/younes/.ssh/id_ed25519
+Your public key has been saved in /home/younes/.ssh/id_ed25519.pub
+The key fingerprint is:
+SHA256:sd0x0ALtAl3ky0Cav7CwUdStoAeeUJDpnuYG8+14apM younesabaroudi@gmail.com
+The key's randomart image is:
++--[ED25519 256]--+
+|  .=. .oo*+.     |
+|  + ..o+o.+..    |
+| . o ++ooo..o    |
+|  . +...o*.o o   |
+| . .o.. S.+ .    |
+|o +  + o .       |
+| * o. . .        |
+|  E.o            |
+| oo=.            |
++----[SHA256]-----+
+(/home/younes/Documents/TRAINING/FastAPI/faraday_ac/learn_fastapi/.conda) younes@worker:~/Documents/TRAINING/FastAPI/faraday_ac/learn_fastapi$ eval "$(ssh-agent -s)"
+Agent pid 191425
+(/home/younes/Documents/TRAINING/FastAPI/faraday_ac/learn_fastapi/.conda) younes@worker:~/Documents/TRAINING/FastAPI/faraday_ac/learn_fastapi$ ssh-add ~/.ssh/id_ed25519
+Enter passphrase for /home/younes/.ssh/id_ed25519: 
+Identity added: /home/younes/.ssh/id_ed25519 (younesabaroudi@gmail.com)
+(/home/younes/Documents/TRAINING/FastAPI/faraday_ac/learn_fastapi/.conda) younes@worker:~/Documents/TRAINING/FastAPI/faraday_ac/learn_fastapi$ cat ~/.ssh/id_ed25519.pub | xclip -selection sd0x0ALtAl3ky0Cav7CwUdStoAeeUJDpnuYG8+14apM
+(/home/younes/Documents/TRAINING/FastAPI/faraday_ac/learn_fastapi/.conda) younes@worker:~/Documents/TRAINING/FastAPI/faraday_ac/learn_fastapi$ ssh-add ~/.ssh/id_ed25519.pub
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@         WARNING: UNPROTECTED PRIVATE KEY FILE!          @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+Permissions 0644 for '/home/younes/.ssh/id_ed25519.pub' are too open.
+It is required that your private key files are NOT accessible by others.
+This private key will be ignored.
+(/home/younes/Documents/TRAINING/FastAPI/faraday_ac/learn_fastapi/.conda) younes@worker:~/Documents/TRAINING/FastAPI/faraday_ac/learn_fastapi$ git push -u origin 1-initial-app-setup
+Warning: Permanently added the ECDSA host key for IP address '140.82.121.4' to the list of known hosts.
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 3.42 KiB | 1.14 MiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+remote: 
+remote: Create a pull request for '1-initial-app-setup' on GitHub by visiting:
+remote:      https://github.com/NyoYoAB/fastapi/pull/new/1-initial-app-setup
+remote: 
+To github.com:NyoYoAB/fastapi.git
+ * [new branch]      1-initial-app-setup -> 1-initial-app-setup
+Branch '1-initial-app-setup' set up to track remote branch '1-initial-app-setup' from 'origin'.
+(/home/younes/Documents/TRAINING/FastAPI/faraday_ac/learn_fastapi/.conda) younes@worker:~/Documents/TRAINING/FastAPI/faraday_ac/learn_fastapi$ 
