@@ -2,8 +2,9 @@
 This is my first repository, let's learn how to use a repository
 ---
 Course1: Java
-Now let's learn Python
-Now let's learn C++
-Let's learn SQL
-Let's learn ENGLISHpandas
-Course7: Driving course
+Course2: Python
+Course3: learn C++
+Course4: SQL
+Course5: ENGLISH
+Course6: pandas
+Course7: Driving
