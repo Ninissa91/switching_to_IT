@@ -6,3 +6,4 @@ Now let's learn Python
 Now let's learn C++
 Let's learn SQL
 Let's learn ENGLISH
+Let's learn Geometry
