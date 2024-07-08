@@ -11,3 +11,4 @@ Course7: Driving
 Course8: Geometry
 Course9: Maths
 Course10: Algebra
+Course11: Arabic
