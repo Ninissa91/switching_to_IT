@@ -14,3 +14,4 @@ Course10: Algebra
 Course11: Arabic
 Course12: Francais
 Course13: Algorithmic
+Course14: Physic
