@@ -8,3 +8,5 @@ Course4: SQL
 Course5: ENGLISH
 Course6: pandas
 Course7: Driving
+Course8: Geometry
+Course9: Maths
