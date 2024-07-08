@@ -7,3 +7,4 @@ Now let's learn C++
 Let's learn SQL
 Let's learn ENGLISH
 Let's learn Geometry
+Let's learn Maths
