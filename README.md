@@ -6,4 +6,4 @@ Now let's learn Python
 Now let's learn C++
 Let's learn SQL
 Let's learn ENGLISHpandas
-Driving course
+Course7: Driving course
